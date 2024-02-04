@@ -23,4 +23,4 @@ This project aims to visualize COVID-19 cases and rates in the United States thr
 The COVID-19 case/death data are originally from The New York Times. The data include all the cases in 2020. The population data used for calculating the case rates are from the 2018 ACS 5 year estimates. Both data are at the county level. The U.S. county boundary shapefile was downloaded from the U.S. Census Bureau. The data have been processed in order to suit the purpose of this project. The case rate is calculated as cases per thousand residents.
 
 ## Credit:
-Thanks to the U.S. Census Bureau for providing county border shapefiles and The New York Times for contributing COVID-19 data, the effort is acknowledged. 
+Thanks to the U.S. Census Bureau for providing county border shapefiles and The New York Times for contributing COVID-19 data, the effort is acknowledged.
