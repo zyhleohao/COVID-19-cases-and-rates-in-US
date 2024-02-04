@@ -5,6 +5,7 @@ const map = new mapboxgl.Map({
 container: 'map', // container ID
 style: 'mapbox://styles/mapbox/light-v10', // style URL
 zoom: 3, // starting zoom
+minZoom: 2,
 center: [-100, 40], // starting center
 projection: 'albers'
 });
@@ -102,3 +103,7 @@ map.on('mousemove', ({point}) => {
 
 // Call the function to fetch GeoJSON data and load the map
 geojsonFetch();
+const source =
+            '<p style="text-align: right; font-size:10pt">Source: <a href="https://github.com/jakobzhao/geog458/tree/master/labs/lab03">bozhao</a></p>';
+        // combine all the html codes.
+legend.innerHTML = labels.join('') + source;
