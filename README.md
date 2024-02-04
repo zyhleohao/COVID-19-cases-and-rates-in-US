@@ -24,6 +24,3 @@ The COVID-19 case/death data are originally from The New York Times. The data in
 
 ## Credit:
 Thanks to the U.S. Census Bureau for providing county border shapefiles and The New York Times for contributing COVID-19 data, the effort is acknowledged.
-
-
-
